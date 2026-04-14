@@ -2,7 +2,7 @@ public class PrintAllSubsets {
 
     public static void printSubsets(String str, String ans, int index) {
         
-        // Base case
+        // Base case check string length
         if (index == str.length()) {
             System.out.println(ans);
             return;
