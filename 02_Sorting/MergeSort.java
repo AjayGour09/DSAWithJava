@@ -2,7 +2,7 @@ public class MergeSort {
 
     public static void mergeSort(int[] arr, int l, int r) {
         if (l >= r) return;
-
+      //division 
         int mid = (l + r) / 2;
 
         mergeSort(arr, l, mid);
