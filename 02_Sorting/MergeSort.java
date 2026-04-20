@@ -15,7 +15,7 @@ public class MergeSort {
         int[] temp = new int[r - l + 1];
 
         int i = l, j = mid + 1, k = 0;
-
+//loop
         while (i <= mid && j <= r) {
             if (arr[i] < arr[j]) {
                 temp[k++] = arr[i++];
