@@ -10,6 +10,7 @@ public class LinearSearch {
 
     public static void main(String[] args) {
         int[] arr = {4, 2, 7, 1, 9};
+        //key
         int key = 7;
 
         System.out.println(search(arr, key));
