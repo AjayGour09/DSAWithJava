@@ -1,7 +1,7 @@
 public class BubbleSort {
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
-
+//loop
         for (int i = 0; i < n - 1; i++) {
             boolean swapped = false;
 
