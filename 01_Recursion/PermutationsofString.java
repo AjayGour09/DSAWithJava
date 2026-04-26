@@ -9,7 +9,7 @@ public class PermutationsofString {
             return;
         }
 
-        // Loop through each character
+        // Loop through each character in value
         for (int i = 0; i < str.length(); i++) {
 
             char curr = str.charAt(i);
