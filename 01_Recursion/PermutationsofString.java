@@ -4,11 +4,15 @@ public class PermutationsofString {
     public static void printPermutations(String str, String ans) {
 
         // Base case
-        if (str.length() == 0) {
+        // if (str.length() == 1) {
+        //     System.out.println(ans);
+        //     return;
+        // }
+
+         if (str.length() == 0) {
             System.out.println(ans);
             return;
         }
-
         // Loop through each character in value
         for (int i = 0; i < str.length(); i++) {
 
