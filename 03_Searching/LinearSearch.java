@@ -5,6 +5,7 @@ public class LinearSearch {
             if (arr[i] == key)
                 return i;
         }
+        // return value
         return -1;
     }
 
