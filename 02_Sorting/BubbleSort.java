@@ -1,7 +1,7 @@
 public class BubbleSort {
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
-//Existing value loop
+         //Existing value loop
         for (int i = 0; i < n - 1; i++) {
             boolean swapped = false;
 
@@ -10,8 +10,8 @@ public class BubbleSort {
                     // swap
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
-                    swapped = true;
+                    arr[j + 1] = temp; //swap temp value
+                    swapped = true; 
                 }
             }
 
