@@ -10,7 +10,7 @@ public class BubbleSort {
                     // swap
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
-                    arr[j + 1] = temp; //swap temp value
+                    arr[j + 1] = temp; //swap temp values
                     swapped = true; 
                 }
             }
