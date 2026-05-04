@@ -1,6 +1,6 @@
 public class SumOfNumber {
     public static int Sum(int n){
-        if(n==0)return 0;
+        if(n==0)return 0; //checked value 
         return Sum(n-1)+n;
     }
     public static void main(String[] args) {

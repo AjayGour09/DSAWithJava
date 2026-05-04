@@ -4,7 +4,7 @@ public class Factorial {
         if(n > 1){
             return n * factorial(n - 1); // correct recursion
         } else {
-            return 1;
+            return 1; 
         }
     }
 
