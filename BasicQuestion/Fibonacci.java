@@ -7,7 +7,7 @@ public class Fibonacci {
     }
 
     public static void main(String[] args) {
-        int n = 6;
+        int n = 6; // take input
         int result = fib(n);
         System.out.println("Fibonacci of " + n + " is: " + result); // print and checked value
     }
